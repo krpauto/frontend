@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+ 
+ 
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+main {
+   padding: 40px;
+   overflow: auto;
+}
+ 
+h2 {
+   color: #c7b40e;
+}
+ 
+h3 {
+   color: #18a0aa;
+}
+ 
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #303030;
+   text-align: center;
+   font-weight: bold;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+}
+
+nav a:hover {
+   font-weight: bold;
+}
+
+.profile header {
+   text-align: center;
+}
+
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #6C6C6C;
+   text-align: center;
+   font-weight: bold;
+}
+
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+
+.featured-image2 {
+   max-height: 500px;
+   object-fit: cover;
+   object-position: center;
+   padding-left: 50px;
+   padding-right: 0px;
+}
+
+.profile img {
+   width: 200px;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #d69f08;
+   text-align: center;
+   color: black;
+   opacity: 80%;
+}
+
+
+a{
+  text-decoration: none;
+}
+a:hover {
+  color:  #141414;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+nav {
+   background-color: #e711b2;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: #ffffff;
+}
+
+#content {
+   float: left;
+   width: 75%;
+}
+
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+/* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 992px */
+@media screen and (max-width: 992px) {
+  ........
+ }
+  /* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 600px */
+ @media screen and (max-width: 600px) {
+    ........
+ }
+
+ @media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+
+table.hovertable {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   width: 100%;
+   border-width: 1px;
+   border-collapse: collapse;
+}
+table.hovertable th {
+   background-color:#cc135a;
+   border-width: 1px;
+   padding: 8px;
+   border-style: solid;
+}
+table.hovertable tr {
+   background-color:#F5F5F5;
+}
+table.hovertable td {
+   border-width: 1px;
+   padding: 8px;
+   border-style: solid; 
+}
+
