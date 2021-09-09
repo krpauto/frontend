@@ -1,2 +1,2 @@
 # frontend
-Front End Final Dicoding
+Submission Front End Final Dicoding
